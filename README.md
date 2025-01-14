@@ -19,15 +19,16 @@ A Python package for analysing and decomposing deformation tensors using SymPy. 
 - Easily display results in LaTeX using Jupyter Notebooks
 
 ## Installation
-1. Clone the repository
+1. **Clone the repository**
 ```bash
 git clone https://github.com/NoelStah/deformation-tensor-decomposition.git
 ```
-2. Navigate to the project directory
+2. **Navigate to the project directory**
 ```bash
 cd deformation-tensor-decomposition
 ```
-3. Install dependencies
+3. **Install dependencies**
+   
 This can be easily done with the help of the `requirements.txt` file
 ```bash
 pip install -r requirements.txt
@@ -38,14 +39,16 @@ pip install sympy
 ```
 
 ## Usage
-1. Import the package
+1. **Import the package**
+
 Ensure the package is accessible by including it in your python path. Import the SymPy package and the deformation tensor tools as follows:
 ```python
 import sympy as sp
 import deformation_tensor_tools as dtools
 ```
 
-2. Example workflow
+2. **Example workflow**
+
 Refer to the example_usage.ipynb file for a detailed demonstration. Here is a basic example:
 ```python
 import sympy as sp
