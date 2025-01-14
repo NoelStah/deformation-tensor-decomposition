@@ -4,7 +4,13 @@ A Python package for analysing and decomposing deformation tensors using SymPy. 
 
 ## Repository Structure
 ```bash
-tree
+.
+├── README.md
+├── deformation_tensor_tools
+│   ├── __init__.py
+│   └── deformation_tensor_tools.py
+├── example_usage.ipynb
+└── requirements.txt
 ```
 ## Features
 - Compute the rate-of-strain tensor, its decomposition (volumetric and shear components) and its principal axes
